@@ -44,7 +44,7 @@ const FormSchema = z.object({
       mes: formData.get('mes'),
     });
 
-    console.log(validatedFields.data.mail.length)
+  
   
   
    

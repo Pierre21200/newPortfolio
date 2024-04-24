@@ -91,7 +91,7 @@ export function Projets () {
               <CarouselItem className="basis 1/3">
             <div onMouseOver={() => setDrop('page')} 
             onMouseLeave={() => setDrop('')} 
-            className="border-[rgb(59,130,246)] border-[3px] shadow-[0px_0px_10px_rgba(59,130,246,1)]  relative text-xl bg-[hsl(242,40%,12%)] h-[200px] text-white  px-4 py-8 overflow-hidden rounded-2xl flex flex-col justify-center items-center cursor-pointer">
+            className="border-[rgb(59,130,246)] border-[3px] shadow-[0px_0px_10px_rgba(59,130,246,1)]  relative text-xl bg-[hsl(242,40%,12%)] h-[200px] text-white  px-4 py-8 overflow-hidden rounded-2xl flex flex-col justify-center items-center">
             <Meteors number={20} />
           <Image
                             className='relative bottom-5'
